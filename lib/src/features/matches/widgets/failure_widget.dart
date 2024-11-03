@@ -18,12 +18,12 @@ class FailureWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const TextM(
-            'Error',
+            'Have not matches for today',
             fontSize: 20,
           ),
           const SizedBox(height: 16),
           PrimaryButton(
-            title: 'Try again',
+            title: 'Reload',
             width: 200,
             onPressed: onPressed,
           ),
